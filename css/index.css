@@ -483,6 +483,7 @@ nav ul .nav-item .dropdown-item {
 
 /* Services End */
 
+/* Rating Start */
 .ratings-div {}
 
 .ratings-div .ratings-grid {
@@ -556,6 +557,9 @@ nav ul .nav-item .dropdown-item {
   }
 }
 
+/* Ratings End */
+
+
 /* About Us Section Start */
 .about-us {
   padding-bottom: 3rem;
@@ -593,7 +597,7 @@ nav ul .nav-item .dropdown-item {
 }
 
 .about-us .about-us-flex .info-div {
-  width: 48%;
+  width: 58%;
 }
 
 @media (max-width: 992px) {
@@ -604,7 +608,7 @@ nav ul .nav-item .dropdown-item {
 }
 
 .about-us .about-us-flex .img-div {
-  width: 48%;
+  width: 38%;
   height: 100%;
   position: relative;
   z-index: 2;
@@ -646,6 +650,83 @@ nav ul .nav-item .dropdown-item {
 
 /* About Us End */
 
+/* Commercial Residential */
+.commercial-residential .commercial-residential-row .commercial-residential-div {
+  position: relative;
+  border-radius: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  overflow: hidden;
+  min-height: 23rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+  .commercial-residential .commercial-residential-row .commercial-residential-div {
+    flex-direction: column;
+    height: inherit;
+  }
+}
+
+.commercial-residential .commercial-residential-row .commercial-residential-div .img-div {
+  width: 50%;
+  flex: 1;
+}
+
+@media (max-width: 992px) {
+  .commercial-residential .commercial-residential-row .commercial-residential-div .img-div {
+    width: 100%;
+    overflow: hidden;
+    flex: 1;
+  }
+}
+
+.commercial-residential .commercial-residential-row .commercial-residential-div .img-div .slider-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  animation: fade-in 0.4s ease-in-out;
+  z-index: -1;
+  filter: brightness(80%);
+}
+
+.commercial-residential .commercial-residential-row .commercial-residential-div .information {
+  width: 50%;
+  padding: 2.5rem;
+  background-color: var(--light-primary-bg);
+  border-bottom: 5px solid var(--primary);
+  flex: 1;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media (max-width: 992px) {
+  .commercial-residential .commercial-residential-row .commercial-residential-div .information {
+    width: 100%;
+    overflow-y: hidden;
+  }
+}
+
+.commercial-residential .commercial-residential-row .commercial-residential-div .information h3,
+.commercial-residential .commercial-residential-row .commercial-residential-div .information .h3 {
+  position: relative;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+
+.commercial-residential .commercial-residential-row .commercial-residential-div .information p {
+  margin-top: 1.5rem;
+}
+
+.commercial-residential .commercial-residential-row .commercial-residential-div .information .btn {
+  margin-top: 2rem;
+}
+
+/* Commercial Residential */
 
 /* CTA Section */
 .cta {
@@ -696,33 +777,35 @@ nav ul .nav-item .dropdown-item {
   padding: 2rem 1.6rem;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 12px;
-  background-color: var(--white);
+  background-color: var(--light-primary-bg);
   min-height: 320px;
 }
 
 .testimonials .testimonial-slider .column .quote {
   width: 4rem;
-  filter: grayscale(100%);
+  margin: 0 auto;
 }
 
 .testimonials .testimonial-slider .column .data {
   margin: 1.5rem 0;
+  text-align: center;
   color: var(--dark);
 }
 
 .testimonials .testimonial-slider .column .user-info {
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .testimonials .testimonial-slider .column .user-info .user-details {
-  padding-left: 1rem;
+  width: 100%;
 }
 
 .testimonials .testimonial-slider .column .user-info .user-details .name {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
-  color: var(--primary);
+  color: var(--dark);
 }
 
 .testimonials .testimonial-slider .column .user-info .user-details .address {
@@ -848,11 +931,11 @@ nav ul .nav-item .dropdown-item {
   padding: 2rem 0rem;
 }
 
-.gallery .gallery-photos .image:nth-of-type(2) img{
+.gallery .gallery-photos .image:nth-of-type(2) img {
   height: 20rem !important;
 }
 
-.gallery .gallery-photos .image:nth-of-type(3) img{
+.gallery .gallery-photos .image:nth-of-type(3) img {
   height: 20rem !important;
 }
 

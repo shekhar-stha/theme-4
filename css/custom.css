@@ -67,6 +67,7 @@
 
   /*Services  */
   --services-background-after-effects-color: rgb(194, 224, 171);
+  --light-primary-bg: rgb(242, 253, 235);
 
   /* Light Section */
   --light-section-background: var(--body);
@@ -98,7 +99,7 @@
   --dark-section-button-border-radius: 50rem;
 
   /* Footer */
-  --footer-section-background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8603816526610644) 33%, rgba(0, 0, 0, 0.8547794117647058) 65%, rgba(0, 0, 0, 0.8295693277310925) 84%);
+  --footer-section-background: rgb(1, 41, 28);
   --footer-headline-color: var(--primary);
   --footer-section-text-color: var(--white);
   --footer-section-ahref-color: var(--white);
