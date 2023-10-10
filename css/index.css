@@ -812,70 +812,51 @@ nav ul .nav-item .dropdown-item {
   font-size: 15px;
 }
 
-/* Extra Services Section */
-.services-summary .process {
+
+/* Contact Info with Map */
+.contact-info .contact-info-flex {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  margin-bottom: 3rem;
+  min-height: 30rem;
+}
+
+.contact-info .contact-info-flex .info-side {
   width: 50%;
+  flex: 1;
+  padding-left: 3rem;
+  padding: 3rem 2rem 3rem 5rem;
+  background-color: #eff8f2;
 }
 
-@media (max-width: 992px) {
-  .services-summary .process {
-    width: 100%;
-  }
+.contact-info .contact-info-flex .info-side h3 {
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
-@media (max-width: 576px) {
-  .services-summary .process {
-    flex-direction: column;
-    align-items: start;
-  }
+.contact-info .contact-info-flex .info-side .contact-paragraph {
+  font-size: 17px;
+  line-height: 27px;
+  margin-bottom: 2rem
 }
 
-.services-summary .process .number {
-  border: 4px solid var(--primary);
-  border-radius: 50%;
-  margin-right: 4rem;
-}
-
-@media (max-width: 576px) {
-  .services-summary .process .number {
-    margin-right: 0rem;
-    margin-bottom: 1rem;
-  }
-}
-
-.services-summary .process .number h2,
-.services-summary .process .number .h2 {
-  width: 5rem !important;
-  height: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.services-summary .process .process-info h2,
-.services-summary .process .process-info .h2 {
-  font-size: 30px;
-  font-weight: 600;
-  color: var(--dark);
-  padding-bottom: 1rem;
-}
-
-.services-summary .process .process-info p {
-  font-size: 20px;
+.contact-info .contact-info-flex .info-side .icon-info{
+  font-size: 18px;
   font-weight: 500;
-  color: var(--dark);
+  margin-bottom: 1rem
 }
 
-@media (max-width: 576px) {
-  .services-summary .process .process-info p {
-    text-align: center;
-  }
+.contact-info .contact-info-flex .info-side .icon-info i{
+  color: var(--primary);
+  font-size: 26px;
+  margin-right: 1rem
 }
+
+.contact-info .contact-info-flex .map-side {
+  width: 50%;
+  flex: 1;
+}
+
 
 /* Service Areas */
 .service-areas {
