@@ -55,11 +55,11 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a title="Home" class="nav-link" aria-current="page" href="/index.html">Home</a>
+                            <a title="Home" class="nav-link ms-0" aria-current="page" href="/index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a title="Dropdown" class="nav-link dropdown-toggle" href="#"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a title="Dropdown" class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Dropdown 1
                             </a>
                             <ul class="dropdown-menu">
@@ -67,7 +67,7 @@
                                 </li>
                                 <li><a title="Sub 2" class="dropdown-item" href="#">Sub 2</a>
                                 </li>
-                               
+
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -90,15 +90,15 @@
         <div class="hero" data-aos="zoom-in">
             <div class="container h-100">
                 <div class="d-flex flex-column justify-content-center h-100 hero-content">
-                    <h1 class="text-white mb-4">Delivering Top-Notch <span>Lawn</span>
+                    <h1 class="mb-4">Delivering Top-Notch <span>Lawn</span>
                         Services in <span>Austin, Texas</span></h1>
-                    <p class="text-white hero-info">
+                    <p class="hero-info">
                         Transforming Austin, Texas Properties into Lush, Healthy, and
                         Enchanting
                         Landscapes through Tailored Lawn Care Solutions
                     </p>
 
-                    <div class="d-flex flex-vm-row flex-column justify-content-center mt-sm-5 mt-4 pt-3 pb-lg-0 pb-3">
+                    <div class="d-flex flex-vm-row flex-column justify-content-center mt-md-5 mt-3 pt-3 pb-lg-0 pb-3">
                         <a title="Free Quote Navigation" href="/cta.html"
                             class="btn btn-primary text-white rounded-pill px-4">Get Free Quote</a>
 
@@ -110,19 +110,23 @@
             </div>
         </div>
         <img class="hero-img" src="/img/hero-bg.jpg" alt="hero img">
-        </div>
+        <img class="grass-mask mask-1" src="/img/grass-mask.png" alt=" Grass Mask">
+        <img class="grass-mask mask-2" src="/img/grass-mask.png" alt=" Grass Mask">
     </section>
 
 
     <section class="services light-section">
         <div class="container">
-            <h3 class="header">We Offer Landscaping Services</h3>
-            <p class="fs-17 fw-400 col-md-8 col-12">Lorem ipsum dolor sit amet. Qui consequatur sint 33 ptatem officia
-                et sint laboriosam sed ipsa sint ut
-                voluptatum labore et possimus voluptas.
-            </p>
+            <div data-aos="fade-right">
+                <h3 class="header">We Offer Landscaping Services</h3>
+                <p class="fs-17 fw-400 col-md-8 col-12">Lorem ipsum dolor sit amet. Qui consequatur sint 33 ptatem
+                    officia
+                    et sint laboriosam sed ipsa sint ut
+                    voluptatum labore et possimus voluptas.
+                </p>
+            </div>
 
-            <div class="services-grid">
+            <div class="services-grid" data-aos="fade-up">
                 <div class="service">
                     <div class="img-div">
                         <img src="/img/service1.jpg" alt="Service Img">
@@ -286,8 +290,22 @@
 
 
     <!-- About -->
-    <section id="about" class="about-us dark-section py-5 mt-5 mb-0" data-aos="fade-up">
-        <div class="container">
+    <section id="about" class="about-us position-relative dark-section py-5 mt-5 mb-0" data-aos="fade-up">
+        <div class="custom-shape-divider-top-1697013684">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                    opacity=".25" class="shape-fill"></path>
+                <path
+                    d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                    opacity=".5" class="shape-fill"></path>
+                <path
+                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+        <div class="container pt-4">
             <div class="about-us-flex">
                 <!-- Information Side -->
                 <div class="info-div">
@@ -320,7 +338,7 @@
     </section>
 
     <!-- Social Media Ratings -->
-    <section class="position-relative ratings-div shadow-lg py-2" data-aos="fade-up">
+    <section class="position-relative light-section ratings-div shadow-lg py-2" data-aos="fade-up">
         <div class="ratings-grid shadow-none container">
             <!-- Facebook Rating -->
             <a class="ratings-card" title="Facebook Navigation" target="_blank" href="#">
@@ -358,7 +376,7 @@
         </div>
     </section>
 
-    <section id="commercialResidential" class="commercial-residential">
+    <section id="commercialResidential" data-aos="fade-up" class="commercial-residential light-section">
         <div data-aos="fade-up" class="container">
             <h3 class="header">Commercial & Residential Services</h3>
 
@@ -427,6 +445,20 @@
 
     <!-- CTA Section -->
     <section class="cta primary-overlay">
+        <div class="custom-shape-divider-top-1697013684">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                    opacity=".25" class="shape-fill"></path>
+                <path
+                    d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                    opacity=".5" class="shape-fill"></path>
+                <path
+                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
         <img class="bg-img" src="/img/cta-bg.jpg" alt="CTA BG">
         <div class="container" data-aos="fade-up">
             <!-- CTA Text -->
@@ -438,10 +470,24 @@
                     href="tel:+11111111111">Call Now</a>
             </div>
         </div>
+        <div class="custom-shape-divider-bottom-1697013719">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                    opacity=".25" class="shape-fill"></path>
+                <path
+                    d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                    opacity=".5" class="shape-fill"></path>
+                <path
+                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
     </section>
 
     <!-- Testimonials -->
-    <section class="testimonials">
+    <section class="testimonials light-section">
         <div class="container" data-aos="fade-up">
 
             <div>
@@ -517,22 +563,26 @@
     </section>
 
     <!-- Contact Info -->
-    <section class="contact-info">
+    <section class="contact-info" data-aos="fade-up">
         <div class="contact-info-flex">
             <div class="info-side dark-section">
-                <h3>
-                    Get In Touch with us and we'll help you
-                </h3>
-                <p class="contact-paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed
-                    cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed
-                    cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-                </p>
+                <div>
+                    <h3 class="header">
+                        Get In Touch with us and we'll help you
+                    </h3>
+                    <p class="contact-paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed
+                        cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Lorem ipsum
+                        dolor
+                        sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed
+                        cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+                    </p>
 
-                <p class="icon-info"><i class="fa-solid fa-square-phone"></i> +1 (111) 111-1111</p>
-                <p class="icon-info"><i class="fa-solid fa-map-location-dot"></i> Location</p>
-                <a href=""></a>
+                    <p class="icon-info"><a title="Phone Number" class="text-white" href="tel:+11111111111"><i
+                                class="fa-solid fa-square-phone"></i> +1 (111) 111-1111</a></p>
+                    <p class="icon-info"><i class="fa-solid fa-map-location-dot"></i> Location</p>
+                    <a class="btn btn-primary rounded-pill px-5 mt-4" href="tel:+11111111111"> Call Now</a>
+                </div>
             </div>
             <div class="map-side">
                 <iframe
@@ -618,16 +668,30 @@
 
     <!-- Footer -->
     <footer class="position-relative pt-3">
+        <div class="custom-shape-divider-top-1697013684">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                    opacity=".25" class="shape-fill"></path>
+                <path
+                    d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                    opacity=".5" class="shape-fill"></path>
+                <path
+                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
         <div class="container mt-5">
             <div class="logo-div navbar-brand d-flex justify-content-center">
-                <img class="mx-auto" src="/img/logo.png" alt="logo">
+                <img class="mx-auto logo" src="/img/logo.png" alt="logo">
             </div>
-            <div class="w-100 d-flex justify-content-center gap-5 mt-5">
-                <p><a class="text-white fw-500 fs-18" title="Contact" href="/contact.html">Contact</a></p>
-                <p><a class="text-white fw-500 fs-18" title="" href="#">Navigation</a></p>
-                <p><a class="text-white fw-500 fs-18" title="" href="#">Navigation</a></p>
-                <p><a class="text-white fw-500 fs-18" title="" href="#">Navigation</a></p>
-                <p><a class="text-white fw-500 fs-18" title="" href="#">Navigation</a></p>
+            <div class="w-100 footer-grid mt-5">
+                <p><a class="fw-500 fs-18" title="Contact" href="/contact.html">Contact</a></p>
+                <p><a class="fw-500 fs-18" title="" href="#">Navigation</a></p>
+                <p><a class="fw-500 fs-18" title="" href="#">Navigation</a></p>
+                <p><a class="fw-500 fs-18" title="" href="#">Navigation</a></p>
+                <p><a class="fw-500 fs-18" title="" href="#">Navigation</a></p>
             </div>
             <hr class="mt-4 text-white" />
 

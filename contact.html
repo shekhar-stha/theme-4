@@ -9,7 +9,7 @@
 
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <meta name = "format-detection" content = "telephone=no">
+    <meta name="format-detection" content="telephone=no">
 
     <!-- CSS -->
     <link rel="stylesheet" href="/css/index.css">
@@ -27,105 +27,62 @@
 <body>
     <!-- Navabr and Hero Section -->
     <section class="nav-hero inner-page position-relative" style="overflow: visible !important; overflow-x: hidden;">
-        <!-- Upper Navbar -->
-        <div class="top-information-div">
-            <div class="container">
-                <div class="top-information" data-aos="fade-down">
-                    <div class="d-md-block d-none">
-                        <a title="Location" href="#">
-                            <i class="fa-solid fa-location-dot pe-2"></i> Location
-                        </a>
-                    </div>
-                    <div class="d-xl-block d-none">
-                        <a title="Homepage Navigation" href="/index.html"><img class="logo" src="/img/logo.png"
-                                alt="Top Logo"></a>
-                    </div>
-                    <div>
-                        <a title="Phone Number" href="tel:+11111111111">
-                            <i class="fa-solid fa-phone-volume pe-2"></i> +1 (111) 111-1111
-                        </a>
-                    </div>
-                </div>
+        <!-- Top of the navbar -->
+        <div class="top-information" data-aos="fade-up">
+            <div class="container py-3 d-flex flex-vm-row flex-column justify-content-between align-items-center">
+                <a href="/index.html#serviceAreas" title="location" class="text-white fw-500">
+                    <i class="fa-solid fa-location-dot"></i>Austin, Texas
+                </a>
+
+                <a title="Phone Number" href="tel:+17372070337" class="text-white fw-500 mt-vm-0 mt-1">
+                    <i class="fa-solid fa-phone"></i> +1 (737) 207-0337</a>
             </div>
         </div>
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-xl navbar-dark" data-aos="fade-down">
+        <nav class="navbar navbar-expand-xl navbar-dark " data-aos="fade-up">
             <div class="container">
-                <!-- Logo Section (visible on extra large screens) -->
-                <div class="logo-section d-xl-none d-inline">
-                    <a title="Logo Navigation" href="/index.html"><img class="logo" src="/img/logo.png"
-                            alt="Logo Image"></a>
-                </div>
-                <!-- Navbar Toggler for mobile -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">
+                <a title="Homepage" class="navbar-brand" href="/index.html"><img class="logo" src="/img/logo.png"
+                        alt="Navbar Transparent Logo"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <!-- Offcanvas for mobile -->
-                <div class="offcanvas-xl offcanvas-end w-100" tabindex="-1" id="offcanvasResponsive"
-                    aria-labelledby="offcanvasResponsiveLabel">
-                    <div class="offcanvas-header bg-dark">
-                        <!-- Logo Section (visible on extra large screens, within offcanvas) -->
-                        <div class="logo-section mb-0 d-xl-none d-inline">
-                            <a title="Homepage Navigation" href="/index.html"><img class="logo" src="/img/logo.png"
-                                    alt="Canvas Logo"></a>
-                        </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a title="Home" class="nav-link ms-0" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a title="Dropdown" class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown 1
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a title="Sub 1" class="dropdown-item" href="#">Sub 1</a>
+                                </li>
+                                <li><a title="Sub 2" class="dropdown-item" href="#">Sub 2</a>
+                                </li>
 
-                        <!-- Close Button for offcanvas -->
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                            data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
-                    </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a title="Navigation" class="nav-link" href="/">Navigation </a>
+                        </li>
+                        <li class="nav-item">
+                            <a title="Contact Page" class="nav-link" href="/contact.html">Contact</a>
+                        </li>
+                    </ul>
 
-                    <!-- Offcanvas Body (contains the navigation) -->
-                    <div class="offcanvas-body w-100">
-                        <!-- Navbar Nav -->
-                        <ul class="navbar-nav w-100 mb-2 mb-lg-0">
-                            <!-- First Navigation -->
-                            <li class="nav-item">
-                                <a class="nav-link" title="Navigation Item 1" href="#">Navigation Item 1</a>
-                            </li>
-                            <!-- Second Navigation -->
-                            <li class="nav-item">
-                                <a class="nav-link" title="Navigation Item 2" href="#">Navigation Item 2</a>
-                            </li>
-                            <!-- Third Navigation -->
-                            <li class="nav-item">
-                                <a class="nav-link" title="Navigation Item 3" href="#">Navigation Item 3</a>
-                            </li>
-                            <!-- Fourth Navigation -->
-                            <li class="nav-item">
-                                <a class="nav-link" title="Navigation Item 4" href="#">Navigation Item 4</a>
-                            </li>
-                            <!-- Fifth Navigation -->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Dropdown Item
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a title="Sub Item 1" class="dropdown-item" href="#">Sub Item 1</a>
-                                    </li>
-                                    <li>
-                                        <a title="Sub Item 2" class="dropdown-item" href="#">Sub Item 2</a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                        </ul>
-
-                        <!-- Call Now Button (visible on extra large screens, within offcanvas) -->
-                        <a title="Call Now"
-                            class="btn btn-primary d-xl-none d-flex justify-content-center col-12 mt-4 fs-17 text-uppercase py-3"
-                            href="tel:+11111111111">
-                            Call Now
-                        </a>
-                    </div>
+                    <a title="Free Estimate CTA"
+                        class="nav-button btn btn-primary rounded-pill fw-500 text-white px-xxl-5 px-4 fs-19 text-white"
+                        href="/cta.html">
+                        Call Now</a>
                 </div>
             </div>
-            <!-- /Container -->
         </nav>
         <!-- /Navbar -->
 
@@ -143,40 +100,44 @@
 
         <!-- Background Image behind hero sections -->
         <img class="hero-img" src="/img/hero-bg.jpg" alt="Hero background Image">
+        <div class="custom-shape-divider-bottom-1697013719">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                    opacity=".25" class="shape-fill"></path>
+                <path
+                    d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                    opacity=".5" class="shape-fill"></path>
+                <path
+                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
     </section>
 
-    <!-- Contact Information -->
-    <section class="contact">
+    <!-- Contact Info -->
+    <section class="contact-info" data-aos="fade-up">
         <div class="container">
-            <div class="flex">
-                <!-- Company Info -->
-                <div class="info-section dark-section" data-aos="fade-right">
-                    <h4 class="text-center">Company Name</h4>
-                    <ul>
-                        <!-- Location -->
-                        <p class="unit"> <i class="fa-solid fa-location-dot me-3 fs-28 text-primary"></i>
-                            <span>
-                                Location
-                            </span></a>
+            <div class="contact-info-flex">
+                <div class="info-side dark-section px-5">
+                    <div>
+                        <h3 class="header">
+                            Get In Touch with us and we'll help you
+                        </h3>
+                        <p class="contact-paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
+                            Sed
+                            cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Lorem ipsum
                         </p>
 
-                        <!-- Phone Number -->
-                        <a title="Phone Number" class="unit" href="tel:+11111111111"> <i
-                                class="fa-solid fa-phone me-3 fs-28 text-primary"></i>
-                            +1 (111) 111-1111
-                        </a>
-
-                        <!-- Facebook -->
-                        <a class="unit" title="Facebook Navigation" class=" d-flex align-items-center" target="_blank"
-                            href="#">
-                            <i class="fs-24 fa-brands fa-facebook fs-28 me-3 text-primary"></i>
-                            Facebook
-                        </a>
-                    </ul>
+                        <p class="icon-info"><a title="Phone Number" class="text-white" href="tel:+11111111111"><i
+                                    class="fa-solid fa-square-phone"></i> +1 (111) 111-1111</a></p>
+                        <p class="icon-info"><i class="fa-solid fa-map-location-dot"></i> Location</p>
+                        <a class="btn btn-primary rounded-pill px-5 mt-4" href="tel:+11111111111"> Call Now</a>
+                    </div>
                 </div>
-
-                <!-- Map -->
-                <div class="map-section" data-aos="fade-left">
+                <div class="map-side">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12964.907633903285!2d-89.6764401767798!3d42.30338627755054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8808696866cd5873%3A0x81d7a51cd16a2b94!2sFreeport%2C%20IL%2061032%2C%20USA!5e0!3m2!1sen!2snp!4v1694757939011!5m2!1sen!2snp"
                         width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
@@ -186,117 +147,48 @@
         </div>
     </section>
 
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery pt-3 light-section" data-aos="fade-up">
-        <div class="container">
-            <p class="sub-header">Our Works</p>
-            <h3 class="header">Visual Success Stories</h3>
-            <div class="gallery-photos">
-
-                <!-- First Photo -->
-                <div class="image">
-                    <a title="Gallery Photo 1" href="/img/gallery-1.jpg" data-lightbox="Gallery1">
-                        <img src="/img/gallery-1.jpg" alt="Gallery Photo 1">
-                    </a>
-                </div>
-
-                <!-- Second Photo -->
-                <div class="image">
-                    <a title="Gallery Photo 2" href="/img/gallery-2.jpg" data-lightbox="gallery2">
-                        <img src="/img/gallery-2.jpg" alt="Gallery Photo 2">
-                    </a>
-                </div>
-
-                <!-- Third Photo -->
-                <div class="image">
-                    <a title="Gallery Photo 3" href="/img/gallery-3.jpg" data-lightbox="gallery3">
-                        <img src="/img/gallery-3.jpg" alt="Gallery Photo 3">
-                    </a>
-                </div>
-
-                <!-- Fourth Photo -->
-                <div class="image">
-                    <a title="Gallery Photo 4" href="/img/gallery-4.jpg" data-lightbox="gallery4">
-                        <img src="/img/gallery-4.jpg" alt="Gallery Photo 4">
-                    </a>
-                </div>
-
-                <!-- Fifth Photo -->
-                <div class="image">
-                    <a title="Gallery Photo 5" href="/img/gallery-5.jpg" data-lightbox="gallery5">
-                        <img src="/img/gallery-5.jpg" alt="Gallery Photo 5">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
     <!-- Footer -->
     <footer class="position-relative pt-3">
+        <div class="custom-shape-divider-top-1697013684">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                    opacity=".25" class="shape-fill"></path>
+                <path
+                    d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                    opacity=".5" class="shape-fill"></path>
+                <path
+                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
         <div class="container mt-5">
-            <div class="row fw-500 fs-16">
-
-                <!-- Img Side Column 1 -->
-                <div class="col-lg pe-lg-5 me-lg-5 col-12 mb-lg-0 mb-5 text-lg-left">
-                    <a title="Homepage Navigation" href="/index.html">
-                        <img src="/img/logo.png" alt="logo footer" style="object-fit: contain;" width="300"
-                            height="100%" class="d-inline-block mb-3" />
-                    </a>
-                </div>
-
-
-                <!-- Column 2 -->
-                <div class="col-lg col-md-4 col-12 mb-lg-0 mb-4 footer-col text-left">
-                    <!-- Footer Title -->
-                    <p class="mb-3 fw-600 footer-headline"> Quick Links</p>
-                    <!-- Homepage Sections -->
-                    <div class="footer-nav">
-                        <p><a class="link" title="Our Services" href="/index.html#service">Our Services</a></p>
-                        <p><a class="link" title="About Us" href="/index.html#about">About Us</a></p>
-                        <p><a class="link" title="Service Areas" href="/service-areas.html">Service Areas</a></p>
-                    </div>
-                </div>
-
-                <!-- Column 3 -->
-                <div class="col-lg col-md-4 col-12 mb-lg-0 mb-4 footer-col text-left">
-                    <!-- Footer Title -->
-                    <p class="mb-3 fw-600 footer-headline">Contact us</p>
-                    <div class="footer-nav">
-                        <!-- Phone Number -->
-                        <p class="d-flex mb-3">
-                            <i class="fs-20 fa-solid fa-phone me-3"></i>
-                            <a class="link" title="Footer Phone Number" href="tel:+11111111111"> +1 (111) 111-1111 </a>
-                        </p>
-
-                        <!-- Location -->
-                        <p class="d-flex">
-                            <i class="fa-solid fa-location-dot fs-20 me-3"></i>
-                            <span> Location</span>
-                        </p>
-
-                        <!-- Facebook -->
-                        <a title="Facebook Navigation" class=" d-flex align-items-center link" target="_blank"
-                            href="#"><i class="fs-22 fa-brands fa-facebook me-3"></i> Facebook</a>
-
-                    </div>
-                </div>
+            <div class="logo-div navbar-brand d-flex justify-content-center">
+                <img class="mx-auto logo" src="/img/logo.png" alt="logo">
             </div>
-            <hr class="mt-4" />
+            <div class="w-100 footer-grid mt-5">
+                <p><a class="fw-500 fs-18" title="Contact" href="/contact.html">Contact</a></p>
+                <p><a class="fw-500 fs-18" title="" href="#">Navigation</a></p>
+                <p><a class="fw-500 fs-18" title="" href="#">Navigation</a></p>
+                <p><a class="fw-500 fs-18" title="" href="#">Navigation</a></p>
+                <p><a class="fw-500 fs-18" title="" href="#">Navigation</a></p>
+            </div>
+            <hr class="mt-4 text-white" />
 
-            <p class="pt-2 pb-3 fw-500 text-white text-center border-1 border-top border-white pt-5">&copy;
+            <p class="pt-2 pb-3 fw-500 text-white text-center pt-5">&copy;
                 Company 2023. All rights reserved.</p>
             <p class="pt-2 pb-3 fw-500 text-white text-center">The content available on this website is owned by us
                 and
                 our licensors. Copying any content, including images, without our consent is prohibited.</p>
         </div>
     </footer>
-
+    
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
-
+    <script src="/js/extra.js"></script>
     <script src="/js/index.js"></script>
 </body>
 
